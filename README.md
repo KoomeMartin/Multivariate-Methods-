@@ -1,7 +1,7 @@
 
-# 🧾 Multivariate Analysis of Banana Flour Physicochemical Properties Using Principal Component Analysis (PCA)
+# Multivariate Analysis of Banana Flour Physicochemical Properties Using Principal Component Analysis (PCA)
 
-## 🎯 Project Overview
+## Project Overview
 This project investigates the physicochemical properties of banana flour using **Principal Component Analysis (PCA)** as a dimensionality reduction technique. It aims to classify flour derived from four distinct banana groups: *green pulp, green peel, ripe pulp*, and *ripe peel*, based on chemical and physical components.
 
 Using Python-based data science tools, the study reduces feature complexity, visualizes hidden patterns in high-dimensional space, and improves model interpretability for classification tasks.
@@ -57,43 +57,10 @@ The dataset contains:
 
 ---
 
-## 📈 Results
-- **Explained Variance**: The first two principal components captured over **70%** of total variance.
-- **Visualization**: PCA scatterplots showed clear separation between the four banana flour groups.
-- **Classification Accuracy**:
-  - Raw Data: **88%**
-  - PCA Data: **85%**
-
-> PCA provided interpretability and dimensionality reduction with minimal performance trade-off.
-
----
-
 ## 📌 Key Findings
 - PCA effectively revealed structure in the flour dataset.
 - Projected samples could be visually and statistically grouped.
 - Even with slight accuracy reduction, PCA-enhanced interpretability justifies its use in exploratory data analysis and modeling.
+- PCA provided interpretability and dimensionality reduction with minimal model performance trade-off.
 
 ---
-
-## 📂 Repository Structure
-```
-📁 data/                  # Raw or processed datasets
-📁 notebooks/             # Jupyter notebooks for EDA, PCA, classification
-📁 plots/                 # PCA plots, biplots, variance graphs
-📁 models/                # Trained SVC models
-📄 README.md              # Project summary and usage
-📄 requirements.txt       # Required dependencies
-📄 pca_pipeline.py        # Script for running PCA and classification
-```
-
----
-
-## 🌐 Live Resources
-- 📖 Scikit-learn PCA: https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html  
-- 📖 SVC Documentation: https://scikit-learn.org/stable/modules/svm.html  
-- 📖 GitHub Citation Guide: https://docs.github.com/en/repositories/citing-repositories-using-github
-
----
-
-> **"Visualisierung hilft uns, die Geschichte der Daten zu verstehen."**  
-> *“Visualization helps us understand the story of the data.”*
